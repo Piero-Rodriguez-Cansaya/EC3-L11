@@ -1,4 +1,5 @@
-@server = https://piero-rodriguez-cansaya-fictional-pxqqq6v975x2rv46-8080.preview.app.github.dev
+#@server = https://piero-rodriguez-cansaya-fictional-pxqqq6v975x2rv46-8080.preview.app.github.dev
+@server = https://ec3-2hsp.onrender.com
 @apiserver = {{server}}/api/Instrumento
 ###
 GET {{server}}/
@@ -17,4 +18,4 @@ nombre=tambor
 DELETE {{apiserver}}/eliminar
 Content-Type: application/x-www-form-urlencoded
 
-id=1
+id=2

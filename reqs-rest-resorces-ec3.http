@@ -1,0 +1,31 @@
+@server = https://piero-rodriguez-cansaya-fictional-pxqqq6v975x2rv46-8080.preview.app.github.dev
+###
+GET {{server}}
+###
+GET {{server}}/instrumento
+###
+POST {{server}}/instrumento
+Content-Type: application/json
+
+{"nombre": "Guitarra"}
+###
+DELETE {{server}}/instrumento/52
+###
+PATCH {{server}}/instrumento/52
+Content-Type: application/json
+
+{"nombre": "platillos"}
+###
+GET {{server}}/categoria
+###
+POST {{server}}/categoria
+Content-Type: application/json
+
+{"nombre": "Instrumentos de Cuerda"}
+###
+PATCH {{server}}/categoria/1
+Content-Type: application/json
+
+{"nombre": "Intrumento de Viento"}
+###
+DELETE {{server}}/categoria/2
